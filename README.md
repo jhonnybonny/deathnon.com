@@ -38,4 +38,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or feedback, please email us at support@deathnon.com.
+@crth0 - Telegram
