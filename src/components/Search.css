@@ -1,0 +1,91 @@
+.search__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    height: 30px;
+    padding: 8px 15px;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 520px;
+    z-index: 3;
+    height: 35px;
+    background: #303134;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 35vw;
+    margin-top: 10px;
+}
+
+.search__input > input {
+    flex: 1;
+    padding: 10px 20px;
+
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: large;
+
+    font-family: "IBM Plex Mono", monospace;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+
+.search__input > input:focus {
+    outline-width: 0;
+}
+
+.search__inputIcon {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.search__buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.search__buttons button {
+    margin: 5px;
+    padding: 7px 15px;
+    text-transform: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.search__buttons button:hover {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.search__buttonsHidden {
+    display: none !important;
+}
+.search__buttons.hidden {
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    #root .search__input {
+        width: 80vw;
+    }
+    #root .search__input > svg {
+        font-size: 2.5rem;
+    }
+    #root .searchPage__header {
+        flex-direction: column;
+        padding: 25px 0;
+    }
+    #root .searchPage__logo {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .searchPage__resultCount {
+        max-width: 80%;
+    }
+}

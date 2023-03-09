@@ -1,0 +1,41 @@
+.banner {
+    font-family: Inter, "Hevetica Neue", Helvetica, apple-system, sans-serif;
+    background-color: rgb(227, 255, 115);
+    /* background-color: rgb(244, 130, 37); */
+    color: #0e0e0e;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+}
+
+.banner__title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+}
+.banner__close-button {
+    position: absolute;
+    right: 35px;
+    top: 0.28rem;
+    border: 0;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .banner__close-button {
+        top: 2rem;
+        right: 1rem;
+        display: none;
+        
+    }
+    .banner__title {
+        padding: 10px 50px;
+        white-space: wrap;
+        max-width: 100%;
+    }
+    
+}

@@ -1,0 +1,12 @@
+.bannerSK {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #f2f2f2;
+  }
+  
+  .bannerSK__logo {
+    height: 80px;
+    transition: all 0.5s ease-in-out;
+  }

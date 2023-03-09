@@ -1,0 +1,35 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home__body > p {
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+@media (max-width: 576px) {
+    .home__body > p {
+        margin-bottom: 0px;
+    }
+}
+
+.home__body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.redirect__body > p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
